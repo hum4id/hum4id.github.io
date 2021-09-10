@@ -164,9 +164,10 @@
   /* Large screens */
   @media only screen and (min-width: 600px) {
     .navbar {
+      margin: 35px 30px;
       top: 0;
       width: 5rem;
-      height: 100vh;
+      height: 26,5vh;
     }
   
     .navbar:hover {
@@ -175,11 +176,5 @@
   
     .navbar:hover .link-text {
       display: inline;
-    }
-  
-  
-    .navbar:hover .logo-text
-    {
-      left: 0px;
     }
   }
