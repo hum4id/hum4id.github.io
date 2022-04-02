@@ -97,7 +97,7 @@
       margin: auto;
     }
     .fa-primary.mnact {
-      color: rgb(0, 255, 0);
+      color: rgb(0, 255, 0) !important;
     }
 
     div.idk_block {
