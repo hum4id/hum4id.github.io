@@ -81,8 +81,6 @@
   }
   .fa-primary {
     color: rgb(0, 255, 0);
-  }
-  .fa-primary{
     transition: var(--transition-speed);
   }
   
@@ -99,9 +97,10 @@
       flex-direction: row;
     }
   
-    .nav-link {
+    .mnavhome, .mnavabout, .mnavat{
       justify-content: center;
       margin: auto;
+      filter: opacity(100);
     }
 
     div.idk_block {
