@@ -78,16 +78,9 @@
     cursor: pointer;
   }
 
-  .fa-primary {
-    color: rgb(0, 255, 0);
-    transition: var(--transition-speed);
-  }
-  
+
   /* jika screennya kecil */
   @media only screen and (max-width: 1000px) {
-    .fa-primary {
-      color: rgb(0, 255, 0);
-    }
     .navbar {
       bottom: 0;
       width: 100%; /*100vw*/
@@ -104,7 +97,7 @@
       margin: auto;
     }
     .fa-primary.mnact {
-      color: #a0a8bd;
+      color: rgb(0, 255, 0);
     }
 
     div.idk_block {
@@ -139,6 +132,10 @@
   
   /* jika screennya besar */
   @media only screen and (min-width: 1000px) {
+    .fa-primary {
+      color: rgb(0, 255, 0);
+      transition: var(--transition-speed);
+    }
     .navbar {
       margin: 40px 40px;
       top: 0;
