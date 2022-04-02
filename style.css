@@ -90,8 +90,9 @@
   @media only screen and (max-width: 1000px) {
     .navbar {
       bottom: 0;
-      width: 100vw;
-      height: 5rem;
+      width: 100%; /*100vw*/
+      height: 60px;
+      border-radius: 27px;
     }
   
     .navbar-nav {
@@ -100,15 +101,16 @@
   
     .nav-link {
       justify-content: center;
+      margin: auto;
     }
 
     div.idk_block {
       align-content: center;
       text-align: center;
       width: 60%;
-      margin: 50px auto 0px auto;
+      margin: 100px auto 0px auto;
       padding: 30px;
-      font-size: 20px;
+      font-size: 16px; /*24*/
       color: #a0a8bd;
       background: #20202c;
       border-radius: 27px;
